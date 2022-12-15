@@ -21,10 +21,12 @@ const Shop = () => {
   return (
     <div className="shop-container">
       <h2>Deposit/Withdraw</h2>
+
       <button className="btn btn-add" onClick={depositMoney}>
         Add
       </button>
       <input
+        className="input"
         placeholder="enter amount"
         onChange={(e) => setAmount(e.target.value)}
         value={amount}
