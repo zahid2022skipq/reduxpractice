@@ -1,3 +1,24 @@
 .shop-container{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    flex-direction: column;
+}
 
+.btn{
+    height: 50px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btn-add{
+    background-color: rgb(81, 203, 103);
+}
+
+.btn-withdraw{
+    background-color: rgb(229, 86, 86);
 }
